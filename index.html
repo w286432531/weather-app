@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+  </head>
+  <body>
+<h1>This is a weather app using openweather API</h1>
+  <form action="/" method="post">
+  <label for="cityInput">Search by city name or zip code:(to search a city within a specific state in the US, type in the following format "city name, abbreviation of state,us")</label>
+  <br>
+  <!-- name for value -->
+  <input id="cityInput" type="text" name="cityName" required>
+  <br>
+  <label for="fahrenheit">Fahrenheit</label>
+  <input id="fahrenheit" type="radio" name="choosedUnit" value="imperial" checked>
+  <label for="Celsius">Celsius</label>
+  <input id="Celsius" type="radio" name="choosedUnit" value="metric">
+  <button type="submit" name="button">Look up weather</button>
+  </form>
+
+
+  </body>
+</html>
